@@ -16,7 +16,7 @@ FontForge’s drawing tools themselves.
 
 The concept of “B&eacute;zier curves” refers to a particular mathematical representation used to
 produce smooth curves digitally. Generally, *Cubic*- and *Quadratic*-order of these curves are used
-&mdash; through FontForge also supports *Spiro* curves, which are an alternate representation for
+&mdash; though FontForge also supports *Spiro* curves, which are an alternate representation for
 the designer.
 
 In this chapter, we will only discuss *Cubic* paths, as that’s what’s generally used when drawing
@@ -33,20 +33,19 @@ see below.
 
 *Curve points* have two handles, each of them being linked to the other so that the line between
 them always stays straight, in order to produce a smooth curve on each side.
- 
+
 <img src="images/tools-curve-point.png" alt>
 
 <h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>
-
 *H/V curve points* (‘horizontal/vertical’) are a variant of curve points that snap to the
-horizontal or vertical axe &mdash; an essential tool in getting B&eacute;zier forms done right
+horizontal or vertical axis &mdash; an essential tool in getting B&eacute;zier forms done right
 (more on that in the next section).
 
 <img src="images/tools-HV-point.png" alt>
 
 #### Coins or corner points (shown as square-shaped points)
 
-*Coins* can have 0, 1 or 2 B&eacute;zier handles. The position of each handle is independant of the
+*Coins* can have 0, 1, or 2 B&eacute;zier handles. The position of each handle is independent of the
 others, making it suitable for discontinuities in the outline.  
 Without handles, coins will produce straight lines.
 
@@ -68,7 +67,7 @@ its direction &mdash; this ensures a continuous transition between the line and 
 ### Getting it right
 
 In order to produce proper curves &mdash; with minimal control points and eased rasterization, the
-anchors should always be placed at **the extremas of the curve**, and unless in places where you
+anchors should always be placed at **the extremas of the curve**. However, in places where you
 have breaks in your letterforms, the line that determines the path should be **horizontal or
 vertical**.
 
@@ -76,7 +75,7 @@ vertical**.
 
 <div class="note">
 <p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
-the actual extrema with a sight icon:</p>
+the actual extrema with a sight icon (`⊕`):</p>
 
 <img src="images/bezier_sample_3.png" alt>
 
@@ -101,7 +100,7 @@ paths:
 <p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
 direction of each handle should be tangent to the curve where it arrives.</p>
 
-## Mastering FontForge’s drawing tools
+## Mastering FontForge drawing tools
 
 From the main window, double-click on one of the glyph boxes to launch the Glyph Window.
 
@@ -211,7 +210,7 @@ only need part of it.
 
 <img src="images/ruler.png" alt>
 
-The ruler tool gives you measurement and coordinate information. When you use it, it displays a
+The ruler tool gives you measurement and coordinate information. When used, it displays a
 floating ‘tooltip’ next to the cursor. If you hover your cursor over a point, the tooltip gives you
 even more detailed measurement and coordinate information. If you bring it next to a spline, it
 gives you information about the curvature and radius. Most usefully, if you click and drag the ruler

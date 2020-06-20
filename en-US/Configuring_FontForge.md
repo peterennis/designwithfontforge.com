@@ -32,7 +32,7 @@ If you think of something, [tell us](https://github.com/fontforge/designwithfont
 
 ## Mac OS X
 
-To open a long file or folder location path provided below:
+To open a long file or folder location path follow the instructions below:
 
 1. Copy the path
 2. `⌘ Tab` to switch to Finder
@@ -89,7 +89,7 @@ If you see no errors, it worked correctly.
 #### 3 button mouse
 
 FontForge uses three mouse button clicks for some extra functions.
-If you don't have a three button mouse you can emulate that by enabling it in X11/Xquartz preferences, in the `Input` section's option `Emulate three button mouse`
+If you don't have a three button mouse you can emulate that by enabling it in X11/Xquartz preferences, in the `Input` section's option `Emulate three button mouse`.
 
 #### Change X11/XQuartz icon to FF icon
 
@@ -102,5 +102,5 @@ sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applic
 
 #### Window management
 
-FontForge isn't a native Mac app, so window handling can be slighty "off," especially on dual monitor systems.
+FontForge isn't a native Mac app, so window handling can be slightly "off," especially on dual monitor systems.
 To regain control of window positions, use the free, libre, open source [ShiftIt](https://github.com/fikovnik/ShiftIt) utility to assign keyboard shortcuts to set window positions.
